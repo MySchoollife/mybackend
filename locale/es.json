@@ -1,0 +1,63 @@
+{
+    "DataUpdate": "Los datos se han actualizado con éxito",
+    "PasswordChanged": "La contraseña se ha cambiado con éxito",
+    "ProfileGet": "Perfil obtenido con éxito",
+    "ProfileUpdate": "El perfil se ha actualizado con éxito",
+    "SettingGet": "Ajustes obtenidos con éxito",
+    "SettingUpdate": "La configuración se ha actualizado con éxito",
+    "AccountDelete": "La cuenta se ha eliminado con éxito",
+    "UserNotFound": "Usuario no encontrado",
+    
+    "OTPInvalid": "OTP no válido, por favor ingrese el OTP correcto",
+  
+    "CarDetailAdded": "Los detalles del vehículo se han añadido con éxito",
+    "CarDetailUpdated": "Los detalles del vehículo se han actualizado con éxito",
+    "CarList": "Lista de vehículos obtenida con éxito",
+  
+    "MySubscriptionList": "Lista de suscripciones obtenida con éxito",
+    "DashboardData": "Los datos del panel se han recuperado con éxito",
+  
+    "NotificationList": "Lista de notificaciones obtenida con éxito",
+    "NotificationNotFound": "Notificación no encontrada",
+    "NotificationDeleteSuccess": "La notificación se ha eliminado con éxito",
+    "NotificationReadSuccess": "La notificación se ha visualizado con éxito",
+    "NotificationGet": "La notificación se ha obtenido con éxito",
+  
+    "OrderNotFound": "Pedido no encontrado",
+    "OrderGet": "Se ha obtenido el detalle del pedido con éxito",
+    "OrderList": "Lista de pedidos obtenida con éxito",
+    "OrderOTPSentCustomer": "OTP enviado al número de teléfono del cliente",
+  
+    "OrderStatusUpdate": "El estado del pedido se ha actualizado con éxito",
+    "OrderCompleteSuccess": "El pedido se ha completado con éxito",
+    "OrderCancelSuccess": "El pedido se ha cancelado con éxito",
+    "OrderPlacedSuccess": "Su pedido se ha realizado con éxito",
+  
+    "OrderNotComplete": "El pedido aún no se ha completado, no puede calificarlo",
+    "AlreadyRated": "Ya ha calificado este pedido",
+    "ReviewSubmitSuccess": "La reseña se ha enviado con éxito",
+  
+    "DiscountCodeNotFound": "Código de descuento no encontrado",
+    "DiscountCodeMinAmount": "El monto del pedido es demasiado bajo para aplicar el descuento",
+    "DiscountCodeInvalid": "El código de descuento no es válido, por favor intente nuevamente",
+    "DiscountCodeExpired": "El código de descuento ha caducado, por favor intente nuevamente",
+  
+    "QuoteSentSuccess": "La cotización se ha enviado con éxito",
+    "QuoteList": "Lista de cotizaciones obtenida con éxito",
+    "QuoteNotFound": "Cotización no encontrada",
+    "QuoteNotReceived": "Por favor espere... actualizaremos su cotización",
+    "QuoteMakredFullFillSuccess": "La cotización no se ha completado con éxito",
+  
+    "PaymentReceived": "Su pago se ha recibido con éxito",
+  
+    "CarCombinationExists": "El número de vehículo ya existe en nuestra base de datos",
+    "SubscriptionNotFound": "Suscripción no encontrada",
+  
+    "WishlistAddedSuccess": "La lista de deseos se ha actualizado con éxito",
+    "WishlistRemovedSuccess": "La lista de deseos se ha eliminado con éxito",
+    "WishlistGetSuccess": "La lista de deseos se ha obtenido con éxito",
+    "SendOtp": "OTP se ha enviado con éxito",
+    "OldPasswordNotMatch": "La contraseña antigua no coincide",
+    "NewPasswordCannotSameWithOld": "La nueva contraseña no puede ser igual a la contraseña antigua"
+  }
+  

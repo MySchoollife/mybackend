@@ -1,0 +1,62 @@
+{
+  "DataUpdate": "Les données ont été mises à jour avec succès",
+  "PasswordChanged": "Le mot de passe a été changé avec succès",
+  "ProfileGet": "Profil obtenu avec succès",
+  "ProfileUpdate": "Le profil a été mis à jour avec succès",
+  "SettingGet": "Paramètres obtenus avec succès",
+  "SettingUpdate": "Les paramètres ont été mis à jour avec succès",
+  "AccountDelete": "Le compte a été supprimé avec succès",
+  "UserNotFound": "Utilisateur non trouvé",
+  
+  "OTPInvalid": "OTP invalide, veuillez saisir le bon OTP",
+
+  "CarDetailAdded": "Les détails du véhicule ont été ajoutés avec succès",
+  "CarDetailUpdated": "Les détails du véhicule ont été mis à jour avec succès",
+  "CarList": "Liste des véhicules obtenue avec succès",
+
+  "MySubscriptionList": "Liste de mes abonnements obtenue avec succès",
+  "DashboardData": "Les données du tableau de bord ont été récupérées avec succès",
+
+  "NotificationList": "Liste des notifications obtenue avec succès",
+  "NotificationNotFound": "Notification introuvable",
+  "NotificationDeleteSuccess": "La notification a été supprimée avec succès",
+  "NotificationReadSuccess": "La notification a été vue avec succès",
+  "NotificationGet": "La notification a été obtenue avec succès",
+
+  "OrderNotFound": "Commande introuvable",
+  "OrderGet": "Détail de la commande obtenu avec succès",
+  "OrderList": "Liste des commandes obtenue avec succès",
+  "OrderOTPSentCustomer": "OTP envoyé au numéro de téléphone du client",
+
+  "OrderStatusUpdate": "Le statut de la commande a été mis à jour avec succès",
+  "OrderCompleteSuccess": "La commande a été complétée avec succès",
+  "OrderCancelSuccess": "La commande a été annulée avec succès",
+  "OrderPlacedSuccess": "Votre commande a été passée avec succès",
+
+  "OrderNotComplete": "La commande n'est pas encore complétée, vous ne pouvez pas évaluer",
+  "AlreadyRated": "Vous avez déjà évalué cette commande",
+  "ReviewSubmitSuccess": "La revue a été soumise avec succès",
+
+  "DiscountCodeNotFound": "Code de réduction introuvable",
+  "DiscountCodeMinAmount": "Le montant de la commande est trop bas pour appliquer une réduction",
+  "DiscountCodeInvalid": "Le code de réduction est invalide, veuillez réessayer",
+  "DiscountCodeExpired": "Le code de réduction a expiré, veuillez réessayer",
+
+  "QuoteSentSuccess": "La cotation a été envoyée avec succès",
+  "QuoteList": "Liste de cotation obtenue avec succès",
+  "QuoteNotFound": "Cotation introuvable",
+  "QuoteNotReceived": "Veuillez patienter... nous mettrons à jour votre cotation",
+  "QuoteMakredFullFillSuccess": "La cotation n'a pas été complétée avec succès",
+
+  "PaymentReceived": "Votre paiement a été reçu avec succès",
+
+  "CarCombinationExists": "Le numéro de véhicule existe déjà dans notre base de données",
+  "SubscriptionNotFound": "Abonnement introuvable",
+
+  "WishlistAddedSuccess": "La liste de souhaits a été mise à jour avec succès",
+  "WishlistRemovedSuccess": "La liste de souhaits a été supprimée avec succès",
+  "WishlistGetSuccess": "La liste de souhaits a été obtenue avec succès",
+  "SendOtp": "OTP a été envoyé avec succès",
+  "OldPasswordNotMatch": "L'ancien mot de passe ne correspond pas",
+  "NewPasswordCannotSameWithOld": "Le nouveau mot de passe ne peut pas être identique à l'ancien mot de passe"
+}

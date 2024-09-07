@@ -1,0 +1,506 @@
+[
+  {
+    "version": "1.0.0",
+    "name": "Dealer_List",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Auth_Masters",
+    "type": "",
+    "url": "",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Auth_Masters"
+  },
+  {
+    "version": "1.0.0",
+    "name": "Specialist_List",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Auth_Masters",
+    "type": "",
+    "url": "",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Auth_Masters"
+  },
+  {
+    "type": "post",
+    "url": "/api/common/blog-detail/",
+    "title": "Blog Detail",
+    "version": "1.0.0",
+    "name": "Detail",
+    "group": "Blog_Master",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Type (slug, id).</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Id.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "slug",
+            "description": "<p>Slug.</p>"
+          }
+        ]
+      }
+    },
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Blog_Master"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/blog",
+    "title": "Blog List",
+    "version": "1.0.0",
+    "name": "List",
+    "group": "Blog_Master",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Blog_Master"
+  },
+  {
+    "version": "1.0.0",
+    "group": "Chat",
+    "parameter": {
+      "examples": [
+        {
+          "title": "Normal-Request-Body :",
+          "content": "{\"receiverId\":\"61d6761387193919815d163e\",\"message\":\"message 1\",\"message_type\":\"TEXT\"}",
+          "type": "json"
+        }
+      ]
+    },
+    "type": "",
+    "url": "",
+    "filename": "src/services/OldSocketSerivce.ts",
+    "groupTitle": "Chat",
+    "name": ""
+  },
+  {
+    "version": "1.0.0",
+    "group": "Chat",
+    "type": "",
+    "url": "",
+    "filename": "src/services/OldSocketSerivce.ts",
+    "groupTitle": "Chat",
+    "name": ""
+  },
+  {
+    "version": "1.0.0",
+    "group": "Chat",
+    "parameter": {
+      "examples": [
+        {
+          "title": "Normal-Request-Body :",
+          "content": "{\"receiverId\":\"622eec5075f7674b7cd5e86f\"}",
+          "type": "json"
+        }
+      ]
+    },
+    "type": "",
+    "url": "",
+    "filename": "src/services/OldSocketSerivce.ts",
+    "groupTitle": "Chat",
+    "name": ""
+  },
+  {
+    "version": "1.0.0",
+    "group": "Chat",
+    "parameter": {
+      "examples": [
+        {
+          "title": "Normal-Request-Body :",
+          "content": "{\"page\":1,\"limit\":50,\"search_text\":\"Hello\"}",
+          "type": "json"
+        }
+      ]
+    },
+    "type": "",
+    "url": "",
+    "filename": "src/services/OldSocketSerivce.ts",
+    "groupTitle": "Chat",
+    "name": ""
+  },
+  {
+    "version": "1.0.0",
+    "group": "Chat",
+    "parameter": {
+      "examples": [
+        {
+          "title": "Normal-Request-Body :",
+          "content": "{\"chat_id\":\"624c3c75d0fbc248442c4357\"}",
+          "type": "json"
+        }
+      ]
+    },
+    "type": "",
+    "url": "",
+    "filename": "src/services/OldSocketSerivce.ts",
+    "groupTitle": "Chat",
+    "name": ""
+  },
+  {
+    "type": "get",
+    "url": "/api/common/app-setting",
+    "title": "App Setting",
+    "version": "1.0.0",
+    "name": "App_Setting",
+    "group": "Masters",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/banner",
+    "title": "Banner List",
+    "version": "1.0.0",
+    "name": "Banner_List",
+    "group": "Masters",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/brand",
+    "title": "Brand List",
+    "version": "1.0.0",
+    "name": "Brand_List",
+    "group": "Masters",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/category",
+    "title": "Category List",
+    "version": "1.0.0",
+    "name": "Category_List",
+    "group": "Masters",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/content/slug",
+    "title": "Content List",
+    "version": "1.0.0",
+    "name": "Content",
+    "group": "Masters",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "slug",
+            "description": "<p>Slug (Pass slug in the URL - terms-and-conditions, how-it-works, about-us, privacy-policy).</p>"
+          }
+        ]
+      }
+    },
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "post",
+    "url": "/api/common/file-upload",
+    "title": "File Upload",
+    "version": "1.0.0",
+    "name": "File_Upload",
+    "group": "Masters",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "file",
+            "description": "<p>Document file.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Type (Ex.Document, Type can be which file you are uploading).</p>"
+          }
+        ]
+      }
+    },
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "post",
+    "url": "/api/common/image-upload",
+    "title": "Image Upload",
+    "version": "1.0.0",
+    "name": "Image_Upload",
+    "group": "Masters",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "File",
+            "optional": false,
+            "field": "image",
+            "description": "<p>Image.</p>"
+          },
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "type",
+            "description": "<p>Type (Ex.Profile, Type can be which image you are uploading).</p>"
+          }
+        ]
+      }
+    },
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/service-category/:category_id",
+    "title": "Service List",
+    "version": "1.0.0",
+    "name": "Service_List",
+    "group": "Masters",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Masters"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/delete",
+    "title": "All Delete",
+    "version": "1.0.0",
+    "name": "Delete_All_Notification",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/delete/64abafe54bf77d8f8cdbba9e",
+    "title": "Single Delete",
+    "version": "1.0.0",
+    "name": "Delete_Single_Notification",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/list",
+    "title": "Notification List",
+    "version": "1.0.0",
+    "name": "Notification_List",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/read",
+    "title": "All Read",
+    "version": "1.0.0",
+    "name": "Read_All_Notification",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "{\"status\":true,\"message\":\"Notification has been viewed successfully\",\"data\":{},\"exeTime\":526}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/read/64abafe54bf77d8f8cdbba9e",
+    "title": "Single Read",
+    "version": "1.0.0",
+    "name": "Read_Single_Notification",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "success": {
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "{\"status\":true,\"message\":\"Notification has been viewed successfully\",\"data\":{\"title\":\"First Title\",\"description\":\"First Description\",\"is_read\":true,\"_id\":\"64abafe54bf77d8f8cdbba9e\",\"created_at\":\"2023-06-22T08:54:28.798Z\",\"from_id\":\"64940c44b505a33af81063d0\",\"to_id\":\"64a548d55867841d5edda7fa\",\"updated_at\":\"2023-07-10T08:33:18.490Z\"},\"exeTime\":272}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/app/notification/show",
+    "title": "Show",
+    "version": "1.0.0",
+    "name": "Show_Notification",
+    "header": {
+      "fields": {
+        "Header": [
+          {
+            "group": "Header",
+            "type": "String",
+            "optional": false,
+            "field": "Authorization",
+            "description": "<p>Pass jwt token.</p>"
+          }
+        ]
+      }
+    },
+    "group": "Notifications",
+    "filename": "src/controllers/App/NotificationUserController.ts",
+    "groupTitle": "Notifications"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/make",
+    "title": "Car Make List",
+    "version": "1.0.0",
+    "name": "Car_Make_List",
+    "group": "Vehicle_Master",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "type",
+            "description": "<p>To get make based on vehicle</p>"
+          }
+        ]
+      }
+    },
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Vehicle_Master"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/model/:make_id",
+    "title": "Car Model List",
+    "version": "1.0.0",
+    "name": "Car_Model_List",
+    "group": "Vehicle_Master",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Vehicle_Master"
+  },
+  {
+    "type": "get",
+    "url": "/api/common/type",
+    "title": "Car Type List",
+    "version": "1.0.0",
+    "name": "Car_Type_List",
+    "group": "Vehicle_Master",
+    "filename": "src/controllers/CommonController.ts",
+    "groupTitle": "Vehicle_Master"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": false,
+    "declaration": true,
+    "skipLibCheck": true,
+    "lib": ["es2017.object", "es2015", "es2017", "dom"]
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@buddy-services/*": ["src/services/app/*"],
+    //   "@buddy-validators/*": ["src/validators/*"],
+    //   "@buddy-middlewares/*": ["src/middlewares/*"],
+    //   "@buddy-routes/*": ["src/routes/*"],
+    //   "@buddy-utils/*": ["src/utils/*"],
+    //   "@buddy-models/*": ["src/models/*"],
+    //   "@buddy-interfaces/*": ["src/interfaces/*"],
+    //   "@buddy-helpers/*": ["src/helpers/*"],
+    //   "@buddy-controllers/*": ["src/controllers/*"],
+    // }
+  },
+  "files": ["./node_modules/@types/node/index.d.ts"],
+  "include": ["src/**/*.ts", "package.json"],
+  "exclude": ["node_modules"]
+}

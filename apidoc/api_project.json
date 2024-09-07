@@ -1,0 +1,14 @@
+{
+  "name": "Pimpt Up Backend Apis",
+  "version": "1.0.0",
+  "description": "The PimptUp application is to display online products and gives a closed platform to all the Dealers, Specialist associated with PimptUp for selling products online. Online Ecommerce Application for iPhone, Android and Website. and the base URL for accessing APIs : http://153.92.4.13:8585",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2023-12-27T04:50:06.578Z",
+    "url": "https://apidocjs.com",
+    "version": "0.29.0"
+  }
+}

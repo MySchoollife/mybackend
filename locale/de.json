@@ -1,0 +1,63 @@
+{
+    "DataUpdate": "Die Daten wurden erfolgreich aktualisiert",
+    "PasswordChanged": "Das Passwort wurde erfolgreich geändert",
+    "ProfileGet": "Profil erfolgreich abgerufen",
+    "ProfileUpdate": "Das Profil wurde erfolgreich aktualisiert",
+    "SettingGet": "Einstellungen erfolgreich abgerufen",
+    "SettingUpdate": "Die Einstellungen wurden erfolgreich aktualisiert",
+    "AccountDelete": "Das Konto wurde erfolgreich gelöscht",
+    "UserNotFound": "Benutzer nicht gefunden",
+    
+    "OTPInvalid": "Ungültige OTP, bitte geben Sie die korrekte OTP ein",
+  
+    "CarDetailAdded": "Fahrzeugdetail wurde erfolgreich hinzugefügt",
+    "CarDetailUpdated": "Fahrzeugdetail wurde erfolgreich aktualisiert",
+    "CarList": "Fahrzeugliste erfolgreich abgerufen",
+  
+    "MySubscriptionList": "Meine Abonnementliste erfolgreich abgerufen",
+    "DashboardData": "Die Dashboard-Daten wurden erfolgreich abgerufen",
+  
+    "NotificationList": "Benachrichtigungsliste erfolgreich abgerufen",
+    "NotificationNotFound": "Benachrichtigung nicht gefunden",
+    "NotificationDeleteSuccess": "Die Benachrichtigung wurde erfolgreich gelöscht",
+    "NotificationReadSuccess": "Die Benachrichtigung wurde erfolgreich angesehen",
+    "NotificationGet": "Die Benachrichtigung wurde erfolgreich abgerufen",
+  
+    "OrderNotFound": "Bestellung nicht gefunden",
+    "OrderGet": "Bestelldetails wurden erfolgreich abgerufen",
+    "OrderList": "Bestellliste wurde erfolgreich abgerufen",
+    "OrderOTPSentCustomer": "OTP wurde an die Telefonnummer des Kunden gesendet",
+  
+    "OrderStatusUpdate": "Der Bestellstatus wurde erfolgreich aktualisiert",
+    "OrderCompleteSuccess": "Die Bestellung wurde erfolgreich abgeschlossen",
+    "OrderCancelSuccess": "Die Bestellung wurde erfolgreich storniert",
+    "OrderPlacedSuccess": "Ihre Bestellung wurde erfolgreich aufgegeben",
+  
+    "OrderNotComplete": "Die Bestellung ist noch nicht abgeschlossen, Sie können Ihre Bewertung nicht abgeben",
+    "AlreadyRated": "Sie haben bereits eine Bewertung für diese Bestellung abgegeben",
+    "ReviewSubmitSuccess": "Die Bewertung wurde erfolgreich abgegeben",
+  
+    "DiscountCodeNotFound": "Rabattcode nicht gefunden",
+    "DiscountCodeMinAmount": "Der Bestellbetrag ist zu niedrig, um einen Rabatt anzuwenden",
+    "DiscountCodeInvalid": "Der Rabattcode ist ungültig, bitte versuchen Sie es erneut",
+    "DiscountCodeExpired": "Der Rabattcode ist abgelaufen, bitte versuchen Sie es erneut",
+  
+    "QuoteSentSuccess": "Angebot wurde erfolgreich gesendet",
+    "QuoteList": "Angebotsliste erfolgreich abgerufen",
+    "QuoteNotFound": "Angebot nicht gefunden",
+    "QuoteNotReceived": "Bitte warten Sie... wir werden Ihr Angebot aktualisieren",
+    "QuoteMakredFullFillSuccess": "Das Angebot wurde nicht erfolgreich abgeschlossen",
+  
+    "PaymentReceived": "Ihre Zahlung wurde erfolgreich empfangen",
+  
+    "CarCombinationExists": "Die Fahrzeugnummer existiert bereits in unserer Datenbank",
+    "SubscriptionNotFound": "Abonnement nicht gefunden",
+  
+    "WishlistAddedSuccess": "Die Wunschliste wurde erfolgreich aktualisiert",
+    "WishlistRemovedSuccess": "Die Wunschliste wurde erfolgreich entfernt",
+    "WishlistGetSuccess": "Die Wunschliste wurde erfolgreich abgerufen",
+    "SendOtp" : "OTP wurde erfolgreich gesendet",
+    "OldPasswordNotMatch" : "Das alte Passwort stimmt nicht überein",
+    "NewPasswordCannotSameWithOld" : "Das neue Passwort kann nicht dasselbe wie das alte Passwort sein"
+  }
+  

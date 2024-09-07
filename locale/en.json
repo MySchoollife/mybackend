@@ -1,0 +1,63 @@
+{
+  "DataUpdate": "Data has been updated successfully",
+  "PasswordChanged": "Password has been changed successfully",
+  "ProfileGet": "Profile get successfully",
+  "ProfileUpdate": "Profile has been updated successfully",
+  "SettingGet": "Setting get successfully",
+  "SettingUpdate": "Setting has been updated successfully",
+  "AccountDelete": "Account has been deleted successfully",
+  "UserNotFound": "User not found",
+  
+  "OTPInvalid": "Invalid OTP, Please enter correct OTP",
+
+  "CarDetailAdded": "Vehicle detail has been added successfully",
+  "CarDetailUpdated": "Vehicle detail has been updated successfully",
+  "CarList": "Vehicle list get successfully",
+
+  "MySubscriptionList": "My subscription list get successfully",
+  "DashboardData": "Dashboard data has been retrieved successfully",
+
+  "NotificationList": "Notification list has been get successfully",
+  "NotificationNotFound": "Notification not found",
+  "NotificationDeleteSuccess": "Notification has been deleted successfully",
+  "NotificationReadSuccess": "Notification has been viewed successfully",
+  "NotificationGet": "Notification has been get successfully",
+
+  "OrderNotFound": "Order not found",
+  "OrderGet": "Order detail has been get successfully",
+  "OrderList": "Order list has been get successfully",
+  "OrderOTPSentCustomer": "OTP has been sent to customer phone number",
+
+  "OrderStatusUpdate": "Order status has been updated successfully",
+  "OrderCompleteSuccess": "Order has been completed successfully",
+  "OrderCancelSuccess": "Order has been cancelled successfully",
+  "OrderPlacedSuccess": "Your order has been placed successfully",
+
+  "OrderNotComplete": "Order is not completed yet, you cannot mark your review",
+  "AlreadyRated": "You already rated to this order",
+  "ReviewSubmitSuccess": "Review has been submitted successfully",
+
+  "DiscountCodeNotFound": "Discount code not found",
+  "DiscountCodeMinAmount": "Order amount is too low to apply discount",
+  "DiscountCodeInvalid": "Discount code is invalid, Please try again",
+  "DiscountCodeExpired": "Discount code has been expired, Please try again",
+
+  "QuoteSentSuccess": "Quote has been sent successfully",
+  "QuoteList": "Quote list has been get successfully",
+  "QuoteNotFound": "Quote not found",
+  "QuoteNotReceived": "Please wait.. we will update your quote",
+  "QuoteMakredFullFillSuccess": "Quote has not been completed successfully",
+
+  "PaymentReceived": "Your payment has been received successfully",
+
+  "CarCombinationExists": "Car number is already exists with us",
+  "SubscriptionNotFound": "Subscription not found",
+
+
+  "WishlistAddedSuccess": "Wishlist has been updated successfully",
+  "WishlistRemovedSuccess": "Wishlist has been removed successfully",
+  "WishlistGetSuccess": "Wishlist has been get successfully",
+  "SendOtp" : "OTP has been sent successfully",
+  "OldPasswordNotMatch" : "Old password does not match",
+  "NewPasswordCannotSameWithOld" : "New password cannot be the same as the old password"
+}
